@@ -1,0 +1,205 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 15px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    height: 40px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px; /* Espaciado entre los elementos */
+}
+
+nav ul li {
+    display: flex;
+    align-items: center; /* Centra los iconos y texto verticalmente */
+
+
+}
+
+nav ul li:hover {
+   background-color: #f0edec;
+   padding: 10px;
+   border-radius: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    align-items: center; /* Centra texto e íconos */
+    gap: 8px; /* Espaciado entre el ícono y el texto */
+}
+
+nav ul li img {
+    width: 16px; /* Tamaño del icono */
+    height: 16px;
+}
+
+
+.header-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.header-buttons button {
+    background: none;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.header-buttons button:hover {
+    background-color: #f0edec;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.icon-button {
+    font-size: 18px;
+}
+
+/* Estilo de la sección de búsqueda */
+.search-section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.search-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.search-options {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.search-options button {
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center; /* Alinea iconos y texto verticalmente */
+    gap: 5px; /* Espaciado entre icono y texto */
+}
+
+.search-options button img {
+    width: 16px; /* Tamaño de los iconos */
+    height: 16px;
+}
+
+.search-options button:hover {
+    position: relative; /* Necesario para usar ::after */
+    background: none;
+    border: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 20px;
+    overflow: hidden;
+}
+
+.search-options button:hover::after {
+    content: ''; /* Crea el elemento pseudo */
+    position: absolute;
+    bottom: 0; /* Coloca la barra al fondo del botón */
+    left: 0;
+    width: 0; /* Ancho inicial de la barra */
+    height: 2px; /* Altura de la barra */
+    background-color: black; /* Color de la barra */
+    transition: width 0.3s ease; /* Transición suave */
+}
+
+.search-options button:hover::after {
+    width: 100%; /* Barra se expande completamente */
+}
+
+.search-bar {
+    position: relative;
+    display: inline-block;
+    width: 100%; /* Asegura que ocupe todo el espacio */
+    max-width: 500px;
+}
+
+.search-bar input {
+    width: calc(100% - 50px); /* Resta el ancho del botón más un pequeño margen */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.search-button {
+    position: absolute;
+    right: 10px; /* Ajusta para pegar el botón al borde */
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    color: white;
+    border-radius: 25px;
+    width: 80px; /* Ancho mayor para que se vea similar al ejemplo */
+    height: 35px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-button:hover {
+    background-color: #008f6f;
+}
+
+
+.imagen_anuncio {
+    
+    display: flex; /* Flexbox para centrar contenido */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    margin: 0;
+    padding: 0;
+}
+
+.imagen_anuncio img {
+    max-width: 100%; /* Asegura que la imagen no se salga del contenedor */
+    max-height: 100%; /* Asegura que la imagen no exceda el alto del viewport */
+    object-fit: contain; /* Mantiene la proporción de la imagen */
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
