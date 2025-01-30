@@ -29,7 +29,8 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 20px; /* Espaciado entre los elementos */
+    gap: 20px;
+    /* Espaciado entre los elementos */
 }
 
 nav ul li {
@@ -49,11 +50,13 @@ nav ul li a {
     font-weight: bold;
     display: flex;
     align-items: center;
-    gap: 8px; /* Espaciado entre el ícono y el texto */
+    gap: 8px;
+    /* Espaciado entre el ícono y el texto */
 }
 
 nav ul li img {
-    width: 16px; /* Tamaño del icono */
+    width: 16px;
+    /* Tamaño del icono */
     height: 16px;
 }
 
@@ -107,12 +110,14 @@ nav ul li img {
     cursor: pointer;
     display: flex;
     align-items: center;
-    gap: 5px; /* Espaciado entre icono y texto */
+    gap: 5px;
+    /* Espaciado entre icono y texto */
     transition: background-color 0.3s ease;
 }
 
 .search-options button img {
-    width: 16px; /* Tamaño de los iconos */
+    width: 16px;
+    /* Tamaño de los iconos */
     height: 16px;
 }
 
@@ -129,7 +134,8 @@ nav ul li img {
 }
 
 .search-bar input {
-    width: calc(100% - 50px); /* Resta el ancho del botón más un pequeño margen */
+    width: calc(100% - 50px);
+    /* Resta el ancho del botón más un pequeño margen */
     padding: 10px 20px;
     font-size: 16px;
     border: 1px solid #ccc;
@@ -142,7 +148,8 @@ nav ul li img {
     right: 10px;
     top: 50%;
     transform: translateY(-50%);
-    background-color: #34b379; /* Verde */
+    background-color: #34b379;
+    /* Verde */
     color: white;
     border: none;
     border-radius: 25px;
@@ -157,7 +164,8 @@ nav ul li img {
 }
 
 .search-button:hover {
-    background-color: #2a9c61; /* Verde más oscuro */
+    background-color: #2a9c61;
+    /* Verde más oscuro */
 }
 
 .imagen_anuncio {
@@ -192,16 +200,21 @@ nav ul li img {
 .lista_destinos ul {
     display: flex;
     justify-content: center;
-    list-style: none; /* Elimina los puntos de la lista */
+    list-style: none;
+    /* Elimina los puntos de la lista */
     padding: 0;
     gap: 20px;
 }
 
 .lista_destinos ul li img {
-    width: 250px; /* Ajusta el tamaño de las imágenes */
-    height: auto; /* Mantén la proporción de las imágenes */
-    border-radius: 8px; /* Esquinas redondeadas */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+    width: 250px;
+    /* Ajusta el tamaño de las imágenes */
+    height: auto;
+    /* Mantén la proporción de las imágenes */
+    border-radius: 8px;
+    /* Esquinas redondeadas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Sombra opcional */
     transition: transform 0.3s ease;
 }
 
@@ -236,9 +249,12 @@ nav ul li img {
 }
 
 .creators ul li img {
-    width: 330px; /* Ajusta el tamaño de las imágenes */
-    height: auto; /* Mantén la proporción de las imágenes */
-    border-radius: 8px; /* Esquinas redondeadas */
+    width: 330px;
+    /* Ajusta el tamaño de las imágenes */
+    height: auto;
+    /* Mantén la proporción de las imágenes */
+    border-radius: 8px;
+    /* Esquinas redondeadas */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
@@ -258,10 +274,12 @@ nav ul li img {
     padding-left: 404px;
     margin-bottom: 10px;
 }
+
 .bcn_tour p {
     padding-left: 404px;
     margin-bottom: 10px;
 }
+
 .tours ul {
     display: flex;
     justify-content: center;
@@ -271,9 +289,12 @@ nav ul li img {
 }
 
 .tours ul li img {
-    width: 330px; /* Ajusta el tamaño de las imágenes */
-    height: auto; /* Mantén la proporción de las imágenes */
-    border-radius: 8px; /* Esquinas redondeadas */
+    width: 330px;
+    /* Ajusta el tamaño de las imágenes */
+    height: auto;
+    /* Mantén la proporción de las imágenes */
+    border-radius: 8px;
+    /* Esquinas redondeadas */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
@@ -281,74 +302,396 @@ nav ul li img {
 .tours ul li img:hover {
     transform: scale(1.05);
 }
+
 /* More explore */
 
 .explore {
     padding-top: 25px;
-    background-color:#f2f1ec;
+    background-color: #f2f1ec;
 }
 
-.explore h2{
+.explore h2 {
     padding-left: 404px;
 }
+
 .exp ul {
-    display: flex; /* Las imágenes estarán una al lado de otra */
-    justify-content: center; /* Centra el contenido horizontalmente */
-    list-style: none; /* Elimina los puntos de la lista */
+    display: flex;
+    /* Las imágenes estarán una al lado de otra */
+    justify-content: center;
+    /* Centra el contenido horizontalmente */
+    list-style: none;
+    /* Elimina los puntos de la lista */
     padding: 0;
-    gap: 50px; /* Espaciado entre los elementos */
+    gap: 50px;
+    /* Espaciado entre los elementos */
 }
 
 .exp ul li {
-    display: flex; /* Configura el contenido del li como un bloque flexible */
-    flex-direction: column; /* Mantén el texto debajo de la imagen */
-    align-items: center; /* Centra la imagen y el texto */
-    text-align: center; /* Centra el texto debajo de la imagen */
+    display: flex;
+    /* Configura el contenido del li como un bloque flexible */
+    flex-direction: column;
+    /* Mantén el texto debajo de la imagen */
+    align-items: center;
+    /* Centra la imagen y el texto */
+    text-align: center;
+    /* Centra el texto debajo de la imagen */
 }
 
 .exp ul li img {
-    width: 330px; /* Ajusta el tamaño de las imágenes */
-    height: auto; /* Mantén la proporción de las imágenes */
-    border-radius: 8px; /* Esquinas redondeadas */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
-    margin-bottom: 10px; /* Espaciado entre la imagen y el texto */
+    width: 330px;
+    /* Ajusta el tamaño de las imágenes */
+    height: auto;
+    /* Mantén la proporción de las imágenes */
+    border-radius: 8px;
+    /* Esquinas redondeadas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Sombra */
+    margin-bottom: 10px;
+    /* Espaciado entre la imagen y el texto */
     transition: transform 0.3s ease;
 }
 
 .exp ul li img:hover {
-    transform: scale(1.05); /* Efecto de ampliación */
+    transform: scale(1.05);
+    /* Efecto de ampliación */
 }
 
 .exp ul li {
-    font-size: 14px; /* Tamaño de la fuente del texto */
-    color: #333; /* Color del texto */
+    font-size: 14px;
+    /* Tamaño de la fuente del texto */
+    color: #333;
+    /* Color del texto */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
+
+
+/*Next trip*/
+.Ntrip {
+    padding-top: 25px;
+    background-color: white;
+}
+
+.Ntrip h2 {
+    padding-left: 404px;
+    margin-bottom: 10px;
+}
+
+.Ntrip p {
+    padding-left: 404px;
+    margin-bottom: 10px;
+}
+
+.trip ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    gap: 50px;
+}
+
+.trip ul li img {
+    width: 237px;
+    /* Ajusta el tamaño de las imágenes */
+    height: auto;
+    /* Mantén la proporción de las imágenes */
+    border-radius: 8px;
+    /* Esquinas redondeadas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.trip ul li img:hover {
+    transform: scale(1.05);
+}
+
+
+/*Next vacation*/
+.nvacation {
+    padding-top: 25px;
+    background-color: white;
+}
+
+.nvacation h2 {
+    padding-left: 404px;
+    margin-bottom: 10px;
+}
+
+.nvacation p {
+    padding-left: 404px;
+    margin-bottom: 10px;
+}
+
+.vacation ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    gap: 50px;
+}
+
+.vacation ul li img {
+    width: 237px;
+    /* Ajusta el tamaño de las imágenes */
+    height: auto;
+    /* Mantén la proporción de las imágenes */
+    border-radius: 8px;
+    /* Esquinas redondeadas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.vacation ul li img:hover {
+    transform: scale(1.05);
+}
+
+/*Rentals*/
+.home-rentals {
+    padding: 50px 20px;
+    background-color: white;
+}
+
+/* Contenedor principal para alinear texto e imágenes */
+.rentals-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Contenedor del título y subtítulo alineado a la izquierda */
+.text-container {
+    flex: 1;
+    text-align: left;
+    max-width: 400px; /* Define un ancho fijo para el texto */
+}
+
+.text-container h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.text-container p {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 0;
+}
+
+/* Contenedor de las imágenes alineadas a la derecha */
+.rental-items {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilos de los botones de imagen */
+.img-button1 {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Tamaño de las imágenes */
+.img-button1 img {
+    width: 270px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.img-button1:hover img {
+    transform: scale(1.05);
+}
+
+/* Estilo del texto dentro de las tarjetas */
+.rental-info {
+    padding-top: 10px;
+}
+
+.rental-info strong {
+    font-size: 16px;
+    display: block;
+}
+
+.rental-info span {
+    font-size: 14px;
+    color: gray;
+}
+
 
 
 /* Footer */
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    margin-top: 20px;
+/* FOOTER */
+.site-footer {
+    background-color: #f8f8f8;
+    padding: 40px 20px;
+    font-size: 14px;
+    color: #333;
 }
 
-footer ul {
-    list-style: none;
-    padding: 0;
-    margin: 10px 0;
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-columns {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
-footer ul li a {
-    text-decoration: none;
-    color: white;
-    font-size: 14px;
+.footer-column {
+    flex: 1;
+    min-width: 200px;
 }
 
-footer ul li a:hover {
+.footer-column h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #555;
+}
+
+.footer-column ul li a:hover {
     text-decoration: underline;
+    color: #000;
+}
+
+/* Footer Bottom Section */
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-logo img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #555;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+/* Settings Section */
+.footer-settings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-button {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: default;
+}
+
+.footer-button:hover {
+    background-color: #eee;
+}
+
+/* Social Icons */
+.footer-socials {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-socials span {
+    font-size: 20px;
+    cursor: default;
+}
+
+/* Ocultar el mensaje por defecto */
+.message {
+    display: none;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    top: 105%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+/* Hacer que el botón sea posicionable */
+.img-button1 {
+    position: relative;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Mostrar el mensaje cuando el botón es clicado */
+.img-button1:focus .message {
+    display: block;
+    opacity: 1;
+}
+
+/* Estilos de las imágenes */
+.img-button1 img {
+    width: 270px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.img-button1:hover img {
+    transform: scale(1.05);
 }
